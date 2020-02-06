@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
-  s.source_files = 'YTVimeoExtractor/*.{h,m,swift}'
+  s.source_files = 'YTVimeoKit/*.{h,m,swift}'
   s.requires_arc = true
 end
