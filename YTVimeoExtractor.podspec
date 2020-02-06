@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lilfaf/YTVimeoExtractor"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { "Louis Larpin" => "louis.larpin@gmail.com", "Soneé John" => "sonee@alphasoftware.co" }
-  s.source       = { :git => "https://github.com/lilfaf/YTVimeoExtractor.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/banwanko/YTVimeoExtractor.git" }
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
-  s.source_files = 'YTVimeoExtractor/*.{h,m}'
+  s.source_files = 'YTVimeoExtractor/*.{h,m,swift}'
   s.requires_arc = true
 end
